@@ -9,7 +9,7 @@ spring:
     profiles: dev #开发环境
     application: 
         name: microservicecloud-config-client
-    rabbitmq:					#本地环境不需要配置mq，但是需要启动mq,Springboot会自动连接本地mq
+    rabbitmq:
         host: localhost
         port: 5672
         username: guest
@@ -21,7 +21,7 @@ spring:
     profiles: test 
     application: 
         name: microservicecloud-config-client123456
-    rabbitmq:					#本地环境不需要配置mq，但是需要启动mq,Springboot会自动连接本地mq
+    rabbitmq:
         host: localhost
         port: 5672
         username: guest
