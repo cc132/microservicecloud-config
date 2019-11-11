@@ -15,4 +15,4 @@ server:
 spring: 
     profiles: test 
     application: 
-        name: microservicecloud-config-client12345
+        name: microservicecloud-config-client123456
